@@ -1,0 +1,14 @@
+{
+  "name": "task-manager-app",
+  "version": "1.0.0",
+  "description": "Full-Stack Task Manager with React, Express, and MongoDB",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["task-manager", "react", "express", "mongodb", "javascript"],
+  "author": "",
+  "license": "ISC"
+}
