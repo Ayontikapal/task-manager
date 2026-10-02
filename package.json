@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Full-Stack Task Manager with React, Express, and MongoDB",
   "scripts": {
+    "build": "cd frontend && npm install && npm run build",
     "start:backend": "cd backend && npm start",
     "dev:backend": "cd backend && npm run dev",
-    "dev:frontend": "cd frontend && npm run dev",
-    "build:frontend": "cd frontend && npm run build"
+    "dev:frontend": "cd frontend && npm run dev"
   },
   "keywords": ["task-manager", "react", "express", "mongodb", "javascript"],
   "author": "",
